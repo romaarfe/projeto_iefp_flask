@@ -1,0 +1,33 @@
+{% include "base.html" %}
+
+
+{% block content %}
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    <h4>Resultado da pesquisa</h4>
+        <a href="/movie"><button class="btn btn-dark btn-lg right" type="submit" >Voltar</button></a>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for each in results %}
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{{each['Poster']}}" class="card-img-top" id="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="title">{{each["Title"]}}</h5>
+          <p class="card-text" id="year">Ano : {{each['Year']}}<br>
+          </p>
+          <p id="type">
+            Tipo: : {{each['Type']}}<br>
+          </p>
+          <p id="details">
+            IMDb : <a href="http://www.imdb.com/title/{{each['imdbID']}}" />
+            Detalhes</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{%endblock%}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Cadastrar</h2>
+  {% if error %}
+    <div class="alert alert-danger" role="alert">{{ error }}</div>
+  {% endif %}
+  <form method="post">
+    <div class="form-group">
+      <label for="username">Utilizador:</label>
+      <input type="text" name="username" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Senha:</label>
+      <input type="password" name="password" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="admin_pass">Senha de Administrador:</label>
+        <input type="password" name="admin_pass" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gravar</button>
+  </form>
+{% endblock %}
