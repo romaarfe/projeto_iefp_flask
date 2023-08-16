@@ -1,9 +1,24 @@
+<h3 align="center"> 
+  🚧 PROJETO PYTHON EM FLASK 🚧
+</h3>
 
-### Projeto de Python em Flask para Curso de Programador de Informática no IEFP - Braga (Portugal)
+---
+#### ⚙️ ETAPAS / FUNCIONALIDADES:
 
-<p>-> LogIn, LogOut, SignUp<br>
--> Acesso personalizado (Admin ou User)<br>
--> CRUD de Utilizadores (Admin)<br>
--> API Clima (OpenWeatherMap)<br>
--> API Notícias (Newsapi.org)<br>
--> API Filmes (IMDB e OMDB)</p>
+- [x] Criação de sistema de LogIn, LogOut e SignUp
+- [x] Acesso personalizado (Admin ou User)
+- [x] CRUD de Utilizadores (Admin)
+- [x] API Clima (OpenWeatherMap)
+- [x] API Notícias (Newsapi.org)
+- [x] API Filmes (IMDB e OMDB)
+
+---
+#### 🔧 FERRAMENTAS / TECNOLOGIAS:
+
+- Python
+- Flask 
+- SQLite
+- API
+
+---
+##### 📖 Projeto para Módulo de Python - IEFP
