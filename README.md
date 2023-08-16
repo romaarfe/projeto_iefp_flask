@@ -16,7 +16,10 @@
 #### 🔧 FERRAMENTAS / TECNOLOGIAS:
 
 - Python
-- Flask 
+- Flask
+- HTML
+- CSS
+- Javascript
 - SQLite
 - API
 
