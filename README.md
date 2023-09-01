@@ -6,7 +6,7 @@
 #### ⚙️ ETAPAS / FUNCIONALIDADES:
 
 - [x] Criação de sistema de LogIn, LogOut e SignUp
-- [x] Acesso personalizado (Admin ou User)
+- [x] Acesso personalizado por roles (Admin ou User)
 - [x] CRUD de Utilizadores (Admin)
 - [x] API Clima (OpenWeatherMap)
 - [x] API Notícias (Newsapi.org)
